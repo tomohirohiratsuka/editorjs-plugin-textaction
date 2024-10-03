@@ -1,6 +1,3 @@
-Here's a completed `README.md` file based on your provided code:
-
-```markdown
 # Text Action Tool
 Text Action is a custom tool for the [Editor.js](https://editorjs.io) framework that provides a simple text area and submit button interface for various use cases like AI-generated text requests or other prompt-based actions.
 This library is intended to be used mainly while creating documents with the Editor.js framework.

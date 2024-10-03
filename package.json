@@ -1,10 +1,14 @@
 {
   "name": "editorjs-plugin-textaction",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom  plugin for Editor.js",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomohirohiratsuka/editorjs-plugin-textaction"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

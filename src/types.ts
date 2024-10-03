@@ -1,6 +1,6 @@
 // define the types for the custom plugin
 import {BlockAPI} from "@editorjs/editorjs";
-type TextActionSubmitPayload = {data: TextActionData; block: BlockAPI};
+export type TextActionSubmitPayload = {data: TextActionData; block: BlockAPI};
 export interface TextActionData {
     value: string;
     placeholder: string;

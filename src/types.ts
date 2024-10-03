@@ -1,18 +1,18 @@
 // define the types for the custom plugin
 import {BlockAPI} from "@editorjs/editorjs";
-
+export type TextActionSubmitPayload = {data: TextActionData; block: BlockAPI};
 export interface TextActionData {
     value: string;
     placeholder: string;
     rows: number;
     buttonText: string;
-    onSubmit: (args: {data: TextActionData, block: BlockAPI}) => void | Promise<void>;
+    onSubmit: (args: TextActionSubmitPayload) => void | Promise<void>;
 }
 
 export interface TextActionConfig {
     placeholder?: string;
     rows?: number;
-    onSubmit?: (args: {data: TextActionData, block: BlockAPI}) => void | Promise<void>;
+    onSubmit?: (args: TextActionSubmitPayload) => void | Promise<void>;
     buttonText?: string;
 }
 
